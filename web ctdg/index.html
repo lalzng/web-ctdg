@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <!-- JQUERY -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.maphilight.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $('.map').maphilight();
+        });
+    </script>
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Open+Sans:wght@300&family=Prompt:wght@500&display=swap" rel="stylesheet">
+    <!-- TITLE -->
+    <title>Cổng Trời Đông Giang</title>
+</head>
+<body>
+
+<!-- HEADER -->
+    <header id="home">
+        <!-- logo -->
+        <div class="container-fluid logo-ctdg">
+            <div class="logo">
+                <a href="index.html">
+                    <img class="normal" src="images/logo.png" alt="CTDG">
+                    <!-- <img class="green-logo" src="images/logo2.png" alt="CTDG"> -->
+                </a>
+            </div>
+        </div>
+        <!-- end logo -->
+    </header>
+<!-- END HEADER -->
+
+<!-- BANNER -->
+    <section class="banner banner-fit" id="banner">
+        <div class="count">
+            <!-- banner text + countdown -->
+            <div class="banner-text">
+                <h5>Khu du lịch sinh thái</h5>
+                <h2>Cổng Trời Đông Giang</h2>
+            </div>
+            <div class="countdown">
+                <!-- countdown components -->
+                <div class="container counter">
+                    <ul>
+                    <li><span id="days"></span>Ngày</li>
+                    <li><span id="hours"></span>Tiếng</li>
+                    <li><span id="minutes"></span>Phút</li>
+                    <li><span id="seconds"></span>Giây</li>
+                    </ul>
+                    <h4>Đến giờ mở cửa 8h00 sáng ngày 29/04</h4>
+                </div>
+                <script src="script.js"></script>
+            </div>
+        </div>  
+        <!-- banner image -->
+        <div class="home-banner">
+            <img src="images/dg.jpg" alt="banner" style="width: 100%">
+        </div>
+    </section>
+<!-- END BANNER -->
+
+<!-- NAVBAR -->
+    <nav class="navbar">
+        <div>
+            <a href="#gioithieu">Giới thiệu</a>
+            <a href="#bus">Di chuyển</a>
+            <a href="#map">Bản đồ</a>
+            <a href="#uudai">Ưu đãi</a>
+            <a href="#eatsleep">Ăn uống & Lưu trú</a>
+            <a href="https://www.fvg.com.vn/tuyen-dung.html">Tuyển dụng</a>
+            <a href="#faq">FAQ</a>
+            <a href="http://www.fivitour.com/vi" class="booknow">BOOK NOW</a>
+        </div>
+    </nav>
+<!-- END NAVBAR -->
+
+<!-- GIOI THIEU -->
+    <section id="gioithieu">
+        <!-- gioi thieu text -->
+        <div class="gioithieu-text">
+            <h2 style="font-weight: bold; text-shadow: 2px 2px #efefef; color: #0F6937;">Kiệt tác giữa Đại Ngàn</h2>
+            <hr>
+            <p>Nằm dọc theo dãy Trường Sơn, khung cảnh thiên nhiên của Đông Giang lộ vẻ quyến rũ - nơi những cánh rừng nguyên sinh và quần thể hang động, thác suối đẹp như tranh. Trải qua hàng triệu năm, tạo hóa đã kiến tạo nên một Cổng Trời sừng sững giữa Đại Ngàn.</p>
+            <p>Khu du lịch sinh thái Cổng Trời Đông Giang, thuộc xã Mà Cooih, huyện Đông Giang, tỉnh Quảng Nam, cách thành phố Đà Nẵng hơn 80km về phía Tây, được tập đoàn FVG đầu tư tổng diện tích hơn 120 ha với mong muốn trở thành tổ hợp du lịch nghỉ dưỡng, vui chơi giải trí được đầu tư bài bản kết hợp với bảo tồn văn hóa truyền thống của người Cơ Tu, thể hiện qua nét độc đáo của văn hóa ẩm thực vùng cao được hun đúc bởi khí hậu và thổ nhưỡng riêng biệt để rồi cùng hòa mình vào điệu Tungtung Yayá của người Cơ Tu.</p>
+        </div>
+        <!-- features -->
+        <div class="container">
+            <div class="row">
+              <div class="col">
+                <img src="images/waterfall.png" alt="nature">
+                <p>Một trong những điểm nhấn của khu du lịch Cổng Trời Đông Giang là trải nghiệm du lịch sinh thái cùng với các <span>hang động và suối thác</span> hình thành tự nhiên qua nhiều năm, bao trọn toàn bộ giá trị lịch sử, phi vật thể trong quần thể bậc thang, sông suối, hang động tạo nên một hệ sinh thái tự cung tự cầu hoàn chỉnh. </p> 
+              </div>
+              <div class="col">
+                <img src="images/hotel.png" alt="hotel">
+                <p>Cứ ngỡ du lịch giữa vùng núi sẽ có nhiều bất tiện và trúc trắc, Cổng Trời Đông Giang đem đến những dịch vụ cao cấp, quán ăn uống sạch sẽ tiện lợi và các khách sạn thuộc <span>chuỗi khách sạn Fivitel</span> đẳng cấp quốc tế sẵn sàng để phục vụ các du khách thân mến.</p> 
+              </div>
+              <div class="col">
+                <img src="images/culture.png" alt="culture">
+                <p>Đông Giang là không những là một điểm đến thiên nhiên mới mà còn là ngôi nhà thân thương của dân tôc Cơ Tu đã trú ngụ nơi này hàng trăm, hàng nghìn năm với những <span>nét đẹp văn hoá</span> truyền thống lâu đời. Ngay giữa khu du lịch là một làng Cơ Tu, cho các du khách trải nghiệm đời sống, lễ hội và tiết mục của dân tộc này.</p> 
+              </div>
+            </div>
+          </div>
+        <!-- end features -->
+    </section>
+<!-- END GIOI THIEU -->
+
+<!-- SOCIALS -->
+<section id="bus">
+    <div class="bus-text">
+        <h2 class="mb-4">Lo lắng về việc di chuyển đến khu du lịch?</h2>
+        <p>✪ Có ngay chuyến xe buýt đưa dón tận tình với ghế siêu mềm và điều hoà để giúp bạn thoải mái trong hai tiếng di chuyển.</p>
+        <p>✪ Điểm xuất phát từ Đà Nẵng: Công viên chân cầu Nguyễn Văn Trỗi (ngay cạnh khách sạn Fivitel - 388 Trần Hưng Đạo - ĐN).</p>
+        <p>✪ Điểm đến: KDL sinh thái Cổng Trời Đông Giang - Quảng Nam.</p>
+        <p>✪ Giờ xuất phát 6h, 6h30, 7h, 7h30, 8h. Giờ quay về lại vị trí xuất phát 16h30, 17h hàng ngày.</p>
+        <h5 class="mt-4">Chỉ 50,000 VND/1 chiều/1 người</h5>
+    </div>
+    
+    <div class="socials">
+        <a href="https://www.facebook.com/fvgtravelcongtroidonggiang"><i class="bi bi-facebook"></i></a>
+        <a href="https://www.instagram.com/congtroidonggiang/"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.pinterest.com/"><i class="bi bi-pinterest"></i></a>
+        <a href="https://twitter.com/"><i class="bi bi-twitter"></i></a>
+        <a href="https://www.tiktok.com/@congtroidonggiang"><i class="bi bi-tiktok"></i></a>
+        <a href="https://www.youtube.com/"><i class="bi bi-youtube"></i></a>
+    </div>
+</section>
+<!-- END SOCIALS -->
+
+<!-- BANDO -->
+    <section id="map">
+        <h2>Bản đồ khu du lịch sinh thái Cổng Trời Đông Giang</h2>
+        <hr>
+        <p class="text-center mb-4">Di chuyển chuột lên từng số trên bản đồ để đọc được chi tiết hơn về từng điểm nhé</p>
+        <section id="mappio">
+        <!-- image map -->
+            <div class="imagemap">
+                <img src="images/mappio.jpeg" alt="CTDG MAP" usemap="#map" style="border-radius: 15px; margin-left: 40px; width: 650px;">
+                <map name="map">
+                    <area id="1" shape="poly" coords="609,650,575,670,551,710,611,719,628,706,619,685,620,656">
+                    <area id="2" shape="poly" coords="574,605,575,595,585,592,604,600,600,610,588,613">
+                    <area id="3" shape="poly" coords="534,656,551,648,578,655,563,667">
+                    <area id="4" shape="poly" coords="518,614,549,593,569,603,580,614,581,622,576,634,558,637,529,627">
+                    <area id="5" shape="poly" coords="516,637,524,629,498,615,488,620,495,629">
+                    <area id="6" shape="poly" coords="387,647,413,638,427,636,445,636,481,622,542,652,476,662">
+                    <area id="7" shape="poly" coords="480,583,501,574,530,586,507,598">
+                    <area id="8" shape="poly" coords="492,565,504,563,508,573,493,575">
+                    <area id="9" shape="poly" coords="481,598,494,591,501,595,501,601,492,607,484,605">
+                    <area id="10" shape="poly" coords="393,608,402,603,419,597,454,586,467,594,477,597,482,604,484,619,445,634,425,634,394,617">
+                    <area id="11" shape="poly" coords="374,634,396,626,404,630,405,638,384,646">
+                    <area id="12" shape="poly" coords="394,564,384,566,376,572,375,578,380,583,387,586,396,588,407,590,417,590,426,589,437,584,445,577,443,570,432,565,425,569,432,575,413,580,403,579,389,575">
+                    <area id="13" shape="poly" coords="363,564,362,571,365,578,370,582,376,585,387,591,389,597,382,599,371,597,365,595,357,591,350,586,349,578,350,569,355,565">
+                    <area id="14" shape="poly" coords="394,564,403,558,418,559,430,565,411,576,400,571">
+                    <area id="15" shape="poly" coords="421,556,429,551,438,555,437,560,429,563">
+                    <area id="16" shape="poly" coords="476,522,490,523,491,538,495,543,496,550,501,561,488,572,478,573,470,569,462,565,464,545,472,540">
+                    <area id="17" shape="poly" coords="356,544,369,538,386,539,396,542,402,547,409,552,402,558,394,558,389,563,373,562,368,550">
+                    <area id="18" shape="poly" coords="399,541,411,531,427,545,425,551,417,552">
+                    <area id="19" shape="poly" coords="436,542,416,530,429,511,439,522,439,532">
+                    <area id="20" shape="poly" coords="433,513,440,505,445,502,454,500,458,504,458,510,452,513,444,516,437,518">
+                    <area id="21" shape="poly" coords="333,535,352,528,359,533,362,539,352,544,334,543">
+                    <area id="22" shape="poly" coords="368,533,366,521,375,519,380,523,380,531">
+                    <area id="23" shape="poly" coords="361,517,366,508,377,519,368,520">
+                    <area id="24" shape="poly" coords="372,512,379,519,387,517,383,506">
+                    <area id="25" shape="poly" coords="230,523,252,522,271,529,288,531,310,536,331,532,331,538,314,540,279,532,259,529">
+                    <area id="26" shape="poly" coords="238,483,267,489,278,493,295,494,304,492,348,516,330,529,310,535,273,527,252,521,239,520">
+                    <area id="27" shape="poly" coords="275,491,294,492,297,484,287,478,278,481">
+                    <area id="28" shape="poly" coords="195,487,226,484,235,487,236,520,201,525,195,521">
+                    <area id="29" shape="poly" coords="247,483,279,473,273,465,265,461,257,461,247,468">
+                    <area id="30" shape="poly" coords="348,494,360,497,368,495,367,456,359,449,351,455">
+                    <area id="31" shape="poly" coords="396,500,421,501,414,493,405,493">
+                    <area id="32" shape="poly" coords="486,496,505,514,529,515,541,524,569,523,596,507,605,507,625,486,622,478,604,478,582,469,566,470,549,480,531,490">
+                    <area id="33" shape="poly" coords="473,510,484,505,492,509,492,515,480,518">
+                    <area id="34" shape="poly" coords="478,450,497,457,511,454,511,446,500,444,493,434,484,441">
+                    <area id="35" shape="poly" coords="403,462,414,458,419,452,426,452,427,457,423,470,412,467,402,469">
+                    <area id="36" shape="poly" coords="407,458,406,437,402,429,391,414,407,409,416,425,419,438,421,458">
+                    <area id="37" shape="poly" coords="375,459,373,474,374,483,391,484,396,466,392,458,385,453">
+                    <area id="38" shape="poly" coords="380,454,387,452,393,457,396,463,399,449,396,442,389,437,382,443">
+                    <area id="39" shape="poly" coords="458,401,441,409,433,424,449,448,471,445,481,432,472,412">
+                    <area id="40" shape="poly" coords="330,426,331,440,357,449,370,441,377,431,376,422,367,420">
+                    <area id="41" shape="poly" coords="320,407,335,404,349,407,355,410,356,416,347,424,331,425,318,421,312,416">
+                    <area id="42" shape="poly" coords="385,414,408,410,403,404,393,403,381,410">
+                    <area id="43" shape="poly" coords="399,381,406,376,436,376,448,379,457,382,458,395,452,404,428,408,413,407,407,394,398,393">
+                    <area id="44" shape="poly" coords="366,375,367,386,359,402,333,402,327,379,337,369">
+                    <area id="45" shape="poly" coords="319,370,325,371,341,338,352,324,346,309,341,313,347,325,333,338">
+                    <area id="46" shape="poly" coords="314,294,330,294,328,281,320,276,313,285">
+                    <area id="47" shape="poly" coords="370,374,392,373,391,368,367,369">
+                    <area id="48" shape="poly" coords="372,347,381,346,389,362,366,363,367,353">
+                    <area id="49" shape="poly" coords="364,346,371,344,368,336,371,326,368,319,364,328">
+                    <area id="50" shape="poly" coords="396,329,391,338,370,337,372,324,390,324">
+                    <area id="51" shape="poly" coords="404,333,396,342,395,348,403,350,413,346,412,335">
+                    <area id="52" shape="poly" coords="362,311,371,306,378,313,378,322,371,323">
+                    <area id="53" shape="poly" coords="346,267,356,265,363,270,360,278,366,304,359,310,354,296,345,283">
+                    <!-- chua implement -->
+                    <area id="54" shape="poly" coords="262,337,288,333,337,321,346,327,308,348,284,355,271,358,277,352,276,346">
+                    <area id="55" shape="poly" coords="212,313,223,308,233,316,245,309,259,318,270,325,268,333,259,332,277,349,269,358,263,361,241,339,223,334,214,329">
+                    <area id="56" shape="poly" coords="254,306,260,295,291,288,319,297,345,312,335,315,336,321,294,330,278,321,271,325,261,316,266,313">
+                    <area id="57" shape="poly" coords="192,286,215,321,212,328,218,335,224,337,251,366,241,367,184,348,167,325,174,302,181,292">
+                    <area id="58" shape="poly" coords="254,278,260,284,269,291,259,294,254,301,228,309,216,298,221,288,233,288,244,283">
+                    <area id="59" shape="poly" coords="267,292,279,289,201,90,190,90">
+                    <area id="60" shape="poly" coords="371,198,385,197,389,189,378,159,360,185,360,193">
+                    <area id="61" shape="poly" coords="492,16,453,39,444,70,438,74,434,79,419,85,429,88,421,99,418,113,432,147,396,173,394,181,404,182,447,149,431,109,440,90,481,85,472,72,474,46,486,31">
+                    <area id="62" shape="poly" coords="202,167,190,175,173,174,155,164,157,143,152,132,149,102,173,94,191,98,212,154,196,157">
+                    <area id="63" shape="poly" coords="147,134,134,148,119,152,111,146,114,135,123,127,128,115,134,112,141,119">
+                    <area id="64" shape="poly" coords="107,120,125,119,131,112,118,66,98,112,99,120">
+                    <area id="65" shape="poly" coords="150,81,144,84,138,82,124,84,121,72,128,62,134,61,152,61,170,71">
+                    <area id="66" shape="poly" coords="159,77,166,78,173,88,169,93,147,101,128,93,126,87,138,84,146,85">
+                    <area id="67" shape="poly" coords="171,81,182,74,201,77,204,88,191,88,183,92">
+                    <area id="68" shape="poly" coords="215,48,265,28,283,36,284,46,243,68,224,68,213,62">
+                    <area id="69" shape="poly" coords="223,73,236,65,264,64,264,71,247,75,239,82,230,89,218,84">
+                    <area id="70" shape="poly" coords="247,77,265,71,269,64,277,71,275,83,255,91,243,93,234,90">
+                    <area id="71" shape="poly" coords="9,105,36,86,67,71,107,70,113,76,95,119,60,135,11,117">
+                </map>
+            </div>
+            <!-- text -->
+            <div class="map-text">
+                <p id="place-name" style="font-weight: bold; text-align: center;">01 - Sân bay trực thăng</p>
+                <p id="place-desc" style="text-align: justify;">Khu du lịch sinh thái Cổng trời Đông Giang sở hữu sân bay trực thăng hiện đại, khai thác các chuyến bay trực thăng từ Đà Nẵng lên tới khu du lịch. Dự kiến mỗi chuyến bay sẽ có thời gian là 15 phút, thỏa mãn nhu cầu ngắm nhìn Quảng Nam từ trên cao.</p>
+            </div>
+        </section>
+    </section>
+<!-- END BANDO -->
+
+<!-- COVID -->
+<section id="covid">  
+    <div class="row">
+        <div class="col">
+            <h2>Thông tin về COVID-19 cho khách quốc tế</h2>
+            <p>Chiều 15/3, Tổng cục trưởng Tổng cục Du lịch, Nguyễn Trùng Khánh, công bố "Việt Nam chính thức mở cửa lại hoạt động du lịch trong điều kiện bình thường mới". Khách du lịch có thể đến Việt Nam qua đường bộ, đường biển, đường hàng không.</p>
+        </div>
+        <div class="col-3 text-center" >
+            <a href="https://baochinhphu.vn/du-lich-mien-trung-san-sang-don-khach-quoc-te-102220319174327639.htm" >Tìm hiểu thêm</a>
+        </div>
+    </div>
+</section>
+<!-- END COVID -->
+
+<!-- PROMOTIONS -->
+    <section id="uudai">
+        <div class="uu-dai-text">
+            <h2>Ưu đãi</h2>
+            <hr>
+            <p class="text-center mb-4">Các giá siêu ưu đãi khi đến với Cổng Trời Đông Giang dành tặng riêng cho bạn</p>
+        </div>
+  
+        <div class="row" style="width: 80%;">
+  
+          <div class="col product-card">
+            <div class="card h-100 w-100">
+              <img class="card-img-top" src="images/uu-dai-1.jpeg" alt=""/>
+              <div class="card-body" style="text-align: left;">
+                    <p><span style="background-color: #D32D27;">GIÁ HOT</span></p>
+                    <br>
+                    <p>Có tấm vé này trong tay, bạn sẽ được bước chân vào một thế giới thần tiên chỉ trên Cổng Trời Đông Giang mới có, với những rừng núi hùng vĩ, chim hót theo bầy đàn, và trải nghiệm du lịch đẳng cấp.</p>
+                    <br>
+                    <div class="text-center but"><a class="btn mt-auto" href="https://www.facebook.com/fvgtravelcongtroidonggiang">Tìm hiểu thêm</a></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col product-card">
+            <div class="card h-100 w-100">
+              <img class="card-img-top" src="images/uu-dai-2.jpeg" alt=""/>
+              <div class="card-body" style="text-align: left;">
+                    <p><span style="background-color: #D32D27;">GIÁ HOT</span></p>
+                    <br>
+                    <p>Combo vé vào cổng kết hợp với buffet trưa sẽ đảm bảo được chuyến đi trong ngày của bạn tràn đầy năng lượng, để có thể tiếp tục hành trình khám phá khu du lịch nằm giữa lòng Quảng Nam có một không hai này.</p>
+                    <br>
+                    <div class="text-center but"><a class="btn mt-auto" href="https://www.facebook.com/fvgtravelcongtroidonggiang">Tìm hiểu thêm</a></div>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+    </section>
+<!-- END PROMOTIONS -->
+
+<!-- EAT & SLEEP -->
+    <section id="eatsleep">
+        <!-- chuoi khach san fivitel -->
+        <div class="fivitel" style="background-color: #0F6937;">
+            <div class="row">
+                <div class="col" style="padding-right: 100px;">
+                    <h2 class="text-white mb-4" style="font-weight: normal;">Chuỗi khách sạn Fivitel</h2>
+                    <p class="text-white">Thương hiệu khách sạn Fivitel đã làm nên tên tuổi của tập đoàn FVG - chủ đầu tư của khu du lịch sinh thái Cổng Trời Đông Giang. Với một chuỗi khách sạn gồm Fivitel Sông Ngân, Fivitel Ô Thước, Fivitel Cầu Kiều, du khách sẽ được trải nghiệm dịch vụ đẳng cấp giữa lòng Đại Ngàn.</p>
+                </div>
+                <div class="col-3">
+                    <img src="images/fivitel.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- chuoi nha hang lamoka -->
+        <div class="lamoka" style="background-color: floralwhite;">
+            <div class="row">
+                <div class="col-3">
+                    <img src="images/lamoka.jpeg" alt="">
+                </div>
+                <div class="col" style="padding-left: 100px;">
+                    <h2 class="mb-4" style="text-align: right;">Chuỗi nhà hàng La Moka</h2>
+                    <p style="color: #0F6937;">La Moka là một tên gọi quen thuộc khi nhắc đến lẩu băng chuyền Hội An khi đây là một trong những thương hiệu nhà hàng ngon nhất miền Trung, thuộc mảng dịch vụ du lịch của tập đoàn FVG. Địa điểm ăn uống sang trọng và chuyên nghiệp sẽ giúp trải nghiệm của du khách trọn vẹn hơn.</p>
+                </div>
+            </div>
+        </div>
+        <!-- cac quan hang outlet -->
+        <div class="outlet" style="background-color: #0F6937;">
+            <div class="row">
+                <div class="col" style="padding-right: 100px;">
+                    <h2 class="text-white mb-4" style="font-weight: normal;">Các quán hàng outlet</h2>
+                    <p class="text-white">Ngoài những khách sạn và nhà hàng đảng cấp của tập đoàn FVG, Cổng Trời Đông Giang cũng sẽ đem đến cho bạn những món ăn nhanh và nước lon, đóng chai qua các cổng outlet. Với từng nẻo đường xuất hiện những quán outlet, bạn sẽ không phải lo về việc cầm những chai nước cồng kềnh hay đói bụng nhưng chưa kịp chuẩn bị.</p>
+                </div>
+                <div class="col-3">
+                    <img src="images/outlet.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- END EAT & SLEEP -->
+
+<!-- NEWS -->
+<section id="faq">
+    <h3 class="text-center mb-4 pb-2 text-primary fw-bold">FAQ</h3>
+    <p class="text-center mb-5">
+      Giải đáp thắc mắc qua những câu hỏi thường gặp nhé!
+    </p>
+  
+    <div class="row">
+      <div class="col-md-6 col-lg-4 mb-4">
+        <h6 class="mb-3 text-primary">Khu du lịch nằm ở đâu?</h6>
+        <p>
+          Khu du lịch sinh thái Cổng Trời Đông Giang nằm giữa Đại Ngàn tại thôn A Sờ, xã Ma Cooih, huyện Đông Giang, tỉnh Quảng Nam.
+        </p>
+      </div>
+  
+      <div class="col-md-6 col-lg-4 mb-4">
+        <h6 class="mb-3 text-primary">Ưu đãi và combo bao nhiêu?</h6>
+        <p>
+          Từ ngày 29/04 đến 31/05, KDL sinh thái Cổng Trời Đông Giang xin trân trọng giới thiệu ưu đãi mở cửa chỉ còn 200,000 VND cho vé tham quan và combo giá vé kèm với Buffet trưa là 400,000 VND - tiết kiệm được 50,000 VND so với mua lẻ. 
+        </p>
+      </div>
+
+      <div class="col-md-6 col-lg-4 mb-4">
+        <h6 class="mb-3 text-primary">Di chuyển từ Đà Nẵng thế nào?</h6>
+        <p>
+          Đi đường 14B đến cầu Hà Nha, vòng xuống dưới cầu Hà Nha đi về phía trại giam An Điềm rồi đi thẳng là đến nhé.
+        </p>
+      </div>
+  
+      <div class="col-md-6 col-lg-4 mb-4">
+        <h6 class="mb-3 text-primary">Giá vé trẻ em tính như nào?</h6>
+        <p>
+          Trẻ em dưới 1m được vào tham quan miễn phí, trẻ em từ 1m đến 1m4 sẽ tính một nửa giá vé người lớn. Vui lòng liên hệ hotline hoặc inbox Cổng Trời Đông Giang trên các trang mạng xã hội nếu còn thắc mắc khác.
+        </p>
+      </div>
+  
+      <div class="col-md-6 col-lg-4 mb-4">
+        <h6 class="mb-3 text-primary">Làm sao để cập nhật tin tức mới nhất của khu du lịch?</h6>
+        <p>
+          Hãy theo dõi nhưng trang mạng xã hội chính thống được cập nhật liên tục điều hành bởi một đội ngũ chăm sóc khách hàng thân thiện sẵn sàng giải đáp, tư vấn, và đem đến cho bạn thông tin mới nhất về KDL sinh thái Cổng Trời Đông Giang!
+        </p>
+      </div>
+
+      <div class="col-md-6 col-lg-4 mb-4">
+        <h6 class="mb-3 text-primary">Tư vấn dịch vụ lưu trú?</h6>
+        <p>Để được tư vấn kỹ càng về giá cả - dịch vụ - và phòng trống, xin liên hệ số hotline. Vui lòng xem bảng giá phòng và dịch vụ trên trang Facebook của khu du lịch.</p>
+      </div>
+    </div>
+  </section>
+  <!-- END NEWS -->
+
+
+    <!-- FOOTER -->
+    <footer class="text-center text-white" style="background-color: #0F6937;">
+      <div class="container p-4">
+      <section id="footerlinks">
+        <div class="row">
+
+          <div class="col-1" style="text-align: right; margin: auto;">
+            <ul class="list-unstyled mb-0">
+              <li style="line-height: 40px;"><a href="https://linktr.ee/fvgtravelcongtroidonggiang" class="text-white soc"><i class="bi bi-boombox-fill"></i></a></li>
+              <li style="line-height: 40px;"><a href="https://www.facebook.com/fvgtravelcongtroidonggiang/" class="text-white soc"><i class="bi bi-facebook"></i></a></li>
+              <li style="line-height: 40px;"><a href="https://www.instagram.com/congtroidonggiang/" class="text-white soc"><i class="bi bi-instagram"></i></a></li>
+              <li style="line-height: 40px;"><a href="https://www.tiktok.com/@congtroidonggiang" class="text-white soc"><i class="bi bi-tiktok"></i></a></li>
+            </ul>
+          </div>
+          <div class="col" style="padding-right: 20px;">
+            <h5 class="text-uppercase">Lời ngỏ</h5>
+            <p style="font-size: 12px; text-align: justify; margin-right: 40px">Với đầy đủ các nét đặc trưng văn hóa, sinh thái, tâm linh cùng dịch vụ lưu trú đẳng cấp, KDL Sinh Thái
+                Cổng Trời Đông Giang kỳ vọng là điểm đến mới lạ độc đáo của Việt Nam, hứa hẹn mang đến những trải
+                nghiệm tuyệt vời cho du khách để không hồ thẹn với danh xưng là Kiệt Tác Giữa Đại Ngàn.</p>
+          </div>
+          <div class="col-2">
+            <h5 class="text-uppercase">Liên quan</h5>
+            <ul class="list-unstyled mb-0">
+              <li><a href="https://www.fvg.com.vn/" class="text-white">Về Tập đoàn FVG</a></li>
+              <li><a href="https://fvgtravel.com.vn/" class="text-white">Về FVG Travel</a></li>
+              <li><a href="https://www.fvg.com.vn/tuyen-dung.html" class="text-white">Cơ hội tuyển dụng</a></li>
+              <li><a href="https://www.instagram.com/explore/tags/congtroidonggiang/" class="text-white">#congtroidonggiang</a></li>
+            </ul>
+          </div>
+
+          <div class="col-5 map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15351.36142897327!2d107.7360534!3d15.8649857!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcfcfea39cc79ad58!2zS2h1IGR1IGzhu4tjaCBzaW5oIHRow6FpIEPhu5VuZyBUcuG7nWkgxJDDtG5nIEdpYW5n!5e0!3m2!1sen!2s!4v1649734581501!5m2!1sen!2s" width="430" height="270" style="border-radius: 3px;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+
+        </div>
+      </section>
+      </div>
+    <!-- END FOOTER -->
+    
+
+</body>
+</html>
